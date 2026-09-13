@@ -1,0 +1,3629 @@
+[
+  {
+    "file": "FAQ.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".env.example",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/run_react_infer.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/tool_file.py",
+    "dependencies": [
+      "Assistant",
+      "json",
+      "qwen_agent.llm",
+      "logger",
+      "pdb",
+      "file_tools.video_agent",
+      "BaseChatModel",
+      "ASSISTANT",
+      "os",
+      "SingleFileParser",
+      "qwen_agent.tools",
+      "qwen_agent.settings",
+      "json5",
+      "typing",
+      "sys",
+      "bdb",
+      "re",
+      "asyncio",
+      "qwen_agent.utils.tokenization_qwen",
+      "time",
+      "qwen_agent.log",
+      "count_tokens",
+      "file_tools.file_parser",
+      "BaseTool",
+      "qwen_agent.tools.base",
+      "copy",
+      "VideoAgent",
+      "openai",
+      "qwen_agent.llm.schema",
+      "DEFAULT_WORKSPACE",
+      "OpenAI",
+      "qwen_agent.agents",
+      "Dict"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/react_agent.py",
+    "dependencies": [
+      "json",
+      "qwen_agent.utils.utils",
+      "qwen_agent.llm",
+      "BaseChatModel",
+      "ASSISTANT",
+      "tool_visit",
+      "os",
+      "AutoTokenizer",
+      "qwen_agent.tools",
+      "build_text_completion_prompt",
+      "tool_python",
+      "qwen_agent.settings",
+      "prompt",
+      "transformers",
+      "tool_scholar",
+      "tool_file",
+      "datetime",
+      "json5",
+      "typing",
+      "FnCallAgent",
+      "asyncio",
+      "random",
+      "time",
+      "qwen_agent.agents.fncall_agent",
+      "BaseTool",
+      "openai",
+      "Message",
+      "MAX_LLM_CALL_PER_RUN",
+      "format_as_text_message",
+      "qwen_agent.llm.schema",
+      "OpenAI",
+      "Dict",
+      "tool_search"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/prompt.py",
+    "dependencies": [
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/tool_python.py",
+    "dependencies": [
+      "typing",
+      "extract_code",
+      "qwen_agent.utils.utils",
+      "re",
+      "random",
+      "time",
+      "ThreadPoolExecutor",
+      "requests.exceptions",
+      "Timeout",
+      "BaseToolWithFileAccess",
+      "concurrent.futures",
+      "Dict",
+      "sandbox_fusion",
+      "os",
+      "qwen_agent.tools.base",
+      "json5",
+      "run_code"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/tool_scholar.py",
+    "dependencies": [
+      "requests",
+      "typing",
+      "json",
+      "ThreadPoolExecutor",
+      "Union",
+      "BaseTool",
+      "concurrent.futures",
+      "os",
+      "http.client",
+      "qwen_agent.tools.base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/tool_search.py",
+    "dependencies": [
+      "typing",
+      "uuid",
+      "json",
+      "asyncio",
+      "ThreadPoolExecutor",
+      "List",
+      "BaseTool",
+      "concurrent.futures",
+      "os",
+      "Dict",
+      "requests",
+      "http.client",
+      "qwen_agent.tools.base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/run_multi_react.py",
+    "dependencies": [
+      "json",
+      "argparse",
+      "ThreadPoolExecutor",
+      "tqdm",
+      "time",
+      "math",
+      "react_agent",
+      "MultiTurnReactAgent",
+      "concurrent.futures",
+      "threading",
+      "os",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/tool_visit.py",
+    "dependencies": [
+      "json",
+      "tiktoken",
+      "urlparse",
+      "concurrent.futures",
+      "threading",
+      "os",
+      "AutoTokenizer",
+      "EXTRACTOR_PROMPT",
+      "ThreadPoolExecutor",
+      "signal",
+      "urllib.parse",
+      "prompt",
+      "transformers",
+      "typing",
+      "random",
+      "time",
+      "BaseTool",
+      "qwen_agent.tools.base",
+      "openai",
+      "List",
+      "OpenAI",
+      "requests"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/file_tools/video_analysis.py",
+    "dependencies": [
+      "pathlib",
+      "json",
+      "ContentDetector",
+      "logger",
+      "SceneManager",
+      "urlparse",
+      "scenedetect",
+      "Path",
+      "os",
+      "detect",
+      "Image",
+      "PIL",
+      "subprocess",
+      "urllib.parse",
+      "ffmpeg",
+      "typing",
+      "base64",
+      "time",
+      "qwen_agent.log",
+      "contextlib",
+      "BaseTool",
+      "io",
+      "qwen_agent.tools.base",
+      "openai",
+      "scenedetect.detectors",
+      "as",
+      "OpenAI",
+      "contextmanager",
+      "Dict",
+      "tempfile",
+      "requests"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/file_tools/file_parser.py",
+    "dependencies": [
+      "pathlib",
+      "json",
+      "logger",
+      "Path",
+      "pdfplumber",
+      "os",
+      "pandas",
+      "Counter",
+      "pdfminer.layout",
+      "Timestamp",
+      "is_datetime64_any_dtype",
+      "qwen_agent.settings",
+      "Any",
+      "datetime",
+      "typing",
+      "xml.etree.ElementTree",
+      "extract_pages",
+      "collections",
+      "re",
+      "qwen_agent.utils.tokenization_qwen",
+      "LTChar",
+      "time",
+      "file_tools.utils",
+      "tabulate",
+      "PackageNotFoundError",
+      "qwen_agent.log",
+      "pptx",
+      "qwen_agent.tools.storage",
+      "KeyNotExistsError",
+      "count_tokens",
+      "BaseTool",
+      "Document",
+      "qwen_agent.tools.base",
+      "pdfminer.high_level",
+      "docx",
+      "zipfile",
+      "Presentation",
+      "math",
+      "DEFAULT_WORKSPACE",
+      "BeautifulSoup",
+      "pandas.api.types",
+      "file_tools.idp",
+      "bs4",
+      "IDP",
+      "pptx.exc",
+      "LTImage"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/file_tools/utils.py",
+    "dependencies": [
+      "shutil",
+      "json",
+      "logger",
+      "pydantic",
+      "ASSISTANT",
+      "os",
+      "from_path",
+      "Image",
+      "traceback",
+      "signal",
+      "socket",
+      "PIL",
+      "urllib.parse",
+      "Any",
+      "json5",
+      "typing",
+      "base64",
+      "hashlib",
+      "sys",
+      "re",
+      "time",
+      "qwen_agent.log",
+      "io",
+      "copy",
+      "BaseModel",
+      "charset_normalizer",
+      "qwen_agent.llm.schema",
+      "requests",
+      "BytesIO"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/file_tools/idp.py",
+    "dependencies": [
+      "alibabacloud_tea_util",
+      "alibabacloud_docmind_api20220711.client",
+      "json",
+      "alibabacloud_tea_openapi",
+      "alibabacloud_tea_util.client",
+      "Client",
+      "alibabacloud_credentials.client",
+      "models",
+      "os",
+      "alibabacloud_docmind_api20220711"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/file_tools/video_agent.py",
+    "dependencies": [
+      "Assistant",
+      "json",
+      "qwen_agent.llm",
+      "logger",
+      "BaseChatModel",
+      "ASSISTANT",
+      "os",
+      "qwen_agent.tools",
+      "VideoAnalysis",
+      "qwen_agent.settings",
+      "json5",
+      "typing",
+      "sys",
+      "re",
+      "asyncio",
+      "qwen_agent.utils.tokenization_qwen",
+      "qwen_agent.log",
+      "count_tokens",
+      "BaseTool",
+      "qwen_agent.tools.base",
+      "copy",
+      "openai",
+      "qwen_agent.llm.schema",
+      "DEFAULT_WORKSPACE",
+      "OpenAI",
+      "file_tools.video_analysis",
+      "qwen_agent.agents",
+      "Dict"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/eval_data/example_with_file.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/eval_data/example.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "inference/eval_data/file_corpus/hello.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evaluation/prompt.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evaluation/evaluate_hle_official.py",
+    "dependencies": [
+      "json",
+      "Literal",
+      "pydantic",
+      "concurrent.futures",
+      "threading",
+      "os",
+      "AutoTokenizer",
+      "Counter",
+      "ThreadPoolExecutor",
+      "transformers",
+      "typing",
+      "collections",
+      "re",
+      "argparse",
+      "time",
+      "BaseModel",
+      "openai",
+      "tqdm",
+      "OpenAI"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evaluation/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "evaluation/evaluate_deepsearch_official.py",
+    "dependencies": [
+      "json",
+      "tiktoken",
+      "Literal",
+      "pydantic",
+      "concurrent.futures",
+      "threading",
+      "os",
+      "AutoTokenizer",
+      "traceback",
+      "prompt",
+      "transformers",
+      "typing",
+      "argparse",
+      "re",
+      "time",
+      "concurrent",
+      "BaseModel",
+      "openai",
+      "tqdm",
+      "OpenAI",
+      "litellm"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/.gitigore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebResearcher/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebResummer/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebResummer/src/run_resum.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebResummer/src/react_agent.py",
+    "dependencies": [
+      "json",
+      "qwen_agent.utils.utils",
+      "qwen_agent.llm",
+      "tiktoken",
+      "BaseChatModel",
+      "os",
+      "AutoTokenizer",
+      "qwen_agent.tools",
+      "build_text_completion_prompt",
+      "qwen_agent.settings",
+      "transformers",
+      "summary_utils",
+      "typing",
+      "FnCallAgent",
+      "qwen_agent.agents.fncall_agent",
+      "BaseTool",
+      "DEFAULT_SYSTEM_MESSAGE",
+      "openai",
+      "summarize_conversation",
+      "MAX_LLM_CALL_PER_RUN",
+      "qwen_agent.llm.schema",
+      "OpenAI",
+      "Dict"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebResummer/src/run_react.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebResummer/src/summary_utils.py",
+    "dependencies": [
+      "requests",
+      "json",
+      "re",
+      "time",
+      "QUERY_SUMMARY_PROMPT",
+      "prompt",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebResummer/src/prompt.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebResummer/src/judge_prompt.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebResummer/src/main.py",
+    "dependencies": [
+      "tool_visit",
+      "json",
+      "ProcessPoolExecutor",
+      "argparse",
+      "tqdm",
+      "react_agent",
+      "MultiTurnReactAgent",
+      "SYSTEM_PROMPT",
+      "concurrent.futures",
+      "threading",
+      "prompt",
+      "os",
+      "tool_search"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebResummer/src/tool_search.py",
+    "dependencies": [
+      "typing",
+      "json",
+      "ThreadPoolExecutor",
+      "List",
+      "BaseTool",
+      "concurrent.futures",
+      "os",
+      "requests",
+      "qwen_agent.tools.base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebResummer/src/tool_visit.py",
+    "dependencies": [
+      "requests",
+      "typing",
+      "openai",
+      "json",
+      "EXTRACTOR_PROMPT",
+      "time",
+      "List",
+      "tiktoken",
+      "OpenAI",
+      "BaseTool",
+      "prompt",
+      "os",
+      "qwen_agent.tools.base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebResummer/src/evaluate.py",
+    "dependencies": [
+      "collections",
+      "json",
+      "argparse",
+      "dashscope",
+      "ThreadPoolExecutor",
+      "tqdm",
+      "time",
+      "tiktoken",
+      "defaultdict",
+      "glob",
+      "JUDGE_PROMPT_GAIA",
+      "concurrent.futures",
+      "judge_prompt",
+      "os",
+      "transformers",
+      "AutoTokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebResummer/src/eval_data/example.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebSailor/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebSailor/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebSailor/src/react_agent.py",
+    "dependencies": [
+      "json",
+      "qwen_agent.utils.utils",
+      "qwen_agent.llm",
+      "tiktoken",
+      "BaseChatModel",
+      "os",
+      "AutoTokenizer",
+      "qwen_agent.tools",
+      "build_text_completion_prompt",
+      "qwen_agent.settings",
+      "transformers",
+      "typing",
+      "FnCallAgent",
+      "qwen_agent.agents.fncall_agent",
+      "BaseTool",
+      "DEFAULT_SYSTEM_MESSAGE",
+      "openai",
+      "MAX_LLM_CALL_PER_RUN",
+      "qwen_agent.llm.schema",
+      "OpenAI",
+      "Dict"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebSailor/src/prompt.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebSailor/src/run.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebSailor/src/tool_search.py",
+    "dependencies": [
+      "typing",
+      "json",
+      "ThreadPoolExecutor",
+      "List",
+      "BaseTool",
+      "concurrent.futures",
+      "os",
+      "requests",
+      "qwen_agent.tools.base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebSailor/src/run_multi_react.py",
+    "dependencies": [
+      "tool_visit",
+      "json",
+      "argparse",
+      "ThreadPoolExecutor",
+      "tqdm",
+      "SYSTEM_PROMPT_MULTI",
+      "react_agent",
+      "MultiTurnReactAgent",
+      "concurrent.futures",
+      "threading",
+      "prompt",
+      "os",
+      "tool_search",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebSailor/src/tool_visit.py",
+    "dependencies": [
+      "typing",
+      "openai",
+      "json",
+      "EXTRACTOR_PROMPT",
+      "random",
+      "ThreadPoolExecutor",
+      "List",
+      "OpenAI",
+      "BaseTool",
+      "concurrent.futures",
+      "os",
+      "prompt",
+      "requests",
+      "qwen_agent.tools.base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebSailor/src/evaluate.py",
+    "dependencies": [
+      "traceback",
+      "openai",
+      "json",
+      "argparse",
+      "re",
+      "tqdm",
+      "tiktoken",
+      "concurrent",
+      "OpenAI",
+      "JUDGE_PROMPT_GAIA",
+      "concurrent.futures",
+      "prompt",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebSailor/src/scripts/test.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebSailor/src/eval_data/example.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebSailor/dataset/sailorfog-QA.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/ParallelMuse/vllm_deploy.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/ParallelMuse/functionality_specified_partial_rollout.py",
+    "dependencies": [
+      "Visit",
+      "json",
+      "os",
+      "AutoTokenizer",
+      "Counter",
+      "traceback",
+      "tools.tool_visit",
+      "numpy",
+      "transformers",
+      "datetime",
+      "json5",
+      "collections",
+      "Search",
+      "re",
+      "random",
+      "asyncio",
+      "time",
+      "argparse",
+      "copy",
+      "aiohttp",
+      "openai",
+      "tools.tool_search",
+      "AsyncOpenAI",
+      "math",
+      "tqdm"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/ParallelMuse/compressed_reasoning_aggregation.py",
+    "dependencies": [
+      "collections",
+      "traceback",
+      "openai",
+      "json",
+      "re",
+      "random",
+      "asyncio",
+      "time",
+      "tqdm",
+      "AsyncOpenAI",
+      "defaultdict",
+      "os",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/ParallelMuse/tools/.gitkeep",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/ParallelMuse/llm_ckpt/.gitkeep",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/ParallelMuse/deepresearch_results/.gitkeep",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/ParallelMuse/data/hle_search_157.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/ParallelMuse/data/browsecomp_200.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/run_write.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/run_vllm_search.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/run_search.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/dashscope_api.py",
+    "dependencies": [
+      "json",
+      "random",
+      "time",
+      "os",
+      "requests",
+      "copy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/local_api.py",
+    "dependencies": [
+      "sys",
+      "traceback",
+      "openai",
+      "json",
+      "argparse",
+      "ThreadPoolExecutor",
+      "tqdm",
+      "time",
+      "OpenAI",
+      "jinja2",
+      "concurrent.futures",
+      "os",
+      "threading",
+      "requests",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/run_write_outline.py",
+    "dependencies": [
+      "json",
+      "utils.utils",
+      "concurrent.futures",
+      "threading",
+      "prompt.write_prompt_multi_hop_2",
+      "os",
+      "read_jsonl",
+      "ThreadPoolExecutor",
+      "prompt.user_prompt",
+      "MultiTurnReactAgentWrite",
+      "tool.tool_search_and_visit",
+      "SYSTEM_PROMPT_multi_turn_write_markdown_v1",
+      "datetime",
+      "tool.tool_visit",
+      "argparse",
+      "tool.tool_retrieve",
+      "react_agent_outline_write",
+      "tqdm",
+      "USER_PROMPT_INST"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/run_search_outline.py",
+    "dependencies": [
+      "SEARCH_USER_PROMPT",
+      "MultiTurnReactAgentSearch",
+      "json",
+      "argparse",
+      "tool.tool_visit",
+      "ThreadPoolExecutor",
+      "tqdm",
+      "react_agent_search_id",
+      "prompt.search_sys_prompt_2",
+      "concurrent.futures",
+      "SEARCH_SYSTEM_PROMPT",
+      "threading",
+      "tool.tool_search_and_visit",
+      "os",
+      "prompt.search_user_prompt_id_3",
+      "tool.tool_retrieve",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/react_agent_search_id.py",
+    "dependencies": [
+      "json",
+      "qwen_agent.utils.utils",
+      "qwen_agent.llm",
+      "tiktoken",
+      "BaseChatModel",
+      "ASSISTANT",
+      "os",
+      "AutoTokenizer",
+      "call_dashscope",
+      "qwen_agent.tools",
+      "traceback",
+      "build_text_completion_prompt",
+      "qwen_agent.settings",
+      "SEARCH_USER_PROMPT",
+      "transformers",
+      "typing",
+      "ast",
+      "FnCallAgent",
+      "re",
+      "qwen_agent.agents.fncall_agent",
+      "BaseTool",
+      "copy",
+      "dashscope_api",
+      "openai",
+      "Message",
+      "MAX_LLM_CALL_PER_RUN",
+      "format_as_text_message",
+      "qwen_agent.llm.schema",
+      "OpenAI",
+      "Dict",
+      "litellm",
+      "prompt.search_user_prompt_id_3"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/react_agent_outline_write.py",
+    "dependencies": [
+      "unquote",
+      "json",
+      "qwen_agent.utils.utils",
+      "qwen_agent.llm",
+      "utils.utils",
+      "tiktoken",
+      "BaseChatModel",
+      "ASSISTANT",
+      "os",
+      "AutoTokenizer",
+      "call_dashscope",
+      "read_jsonl",
+      "qwen_agent.tools",
+      "traceback",
+      "build_text_completion_prompt",
+      "prompt.user_prompt",
+      "urllib.parse",
+      "qwen_agent.settings",
+      "transformers",
+      "typing",
+      "FnCallAgent",
+      "re",
+      "qwen_agent.agents.fncall_agent",
+      "BaseTool",
+      "copy",
+      "dashscope_api",
+      "openai",
+      "Message",
+      "MAX_LLM_CALL_PER_RUN",
+      "format_as_text_message",
+      "qwen_agent.llm.schema",
+      "USER_PROMPT_INST",
+      "OpenAI",
+      "Dict",
+      "litellm"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/prompt/user_prompt.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/prompt/search_user_prompt_id_3.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/prompt/search_sys_prompt_2.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/prompt/write_prompt_multi_hop_2.py",
+    "dependencies": [
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/examples/3.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/examples/2.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/examples/1.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/examples/4.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/tool/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/tool/tool_retrieve.py",
+    "dependencies": [
+      "json",
+      "qwen_agent.utils.utils",
+      "topsdk.client",
+      "AlibabaAidataAigniteApplicationRunAigniteApplicationExecuteReqDTO",
+      "tiktoken",
+      "urlparse",
+      "TopApiClient",
+      "concurrent.futures",
+      "os",
+      "AutoTokenizer",
+      "Defaultability",
+      "EXTRACTOR_PROMPT",
+      "build_text_completion_prompt",
+      "ThreadPoolExecutor",
+      "urllib.parse",
+      "prompt",
+      "transformers",
+      "typing",
+      "random",
+      "time",
+      "BaseTool",
+      "topsdk.defaultability.defaultability",
+      "qwen_agent.tools.base",
+      "litellm",
+      "topsdk.defaultability.request.alibaba_aidata_aignite_application_run_request",
+      "openai",
+      "Message",
+      "qwen_agent.llm.schema",
+      "List",
+      "OpenAI",
+      "requests"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/tool/tool_search_and_visit.py",
+    "dependencies": [
+      "Visit",
+      "json",
+      "concurrent.futures",
+      "tool_visit",
+      "os",
+      ".tool_select_url",
+      "ThreadPoolExecutor",
+      ".tool_visit",
+      "tool_select_url",
+      "typing",
+      "sys",
+      "Search",
+      "SelectURL",
+      "BaseTool",
+      ".tool_search",
+      "qwen_agent.tools.base",
+      "Union",
+      "requests",
+      "tool_search"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/tool/tool_select_url.py",
+    "dependencies": [
+      "requests",
+      "typing",
+      "json",
+      "ThreadPoolExecutor",
+      "Union",
+      "BaseTool",
+      "concurrent.futures",
+      "os",
+      "qwen_agent.tools.base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/tool/tool_search.py",
+    "dependencies": [
+      "typing",
+      "uuid",
+      "json",
+      "asyncio",
+      "ThreadPoolExecutor",
+      "List",
+      "BaseTool",
+      "concurrent.futures",
+      "os",
+      "Dict",
+      "requests",
+      "http.client",
+      "qwen_agent.tools.base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/tool/tool_visit.py",
+    "dependencies": [
+      "json",
+      "topsdk.client",
+      "AlibabaAidataAigniteApplicationRunAigniteApplicationExecuteReqDTO",
+      "tiktoken",
+      "urlparse",
+      "TopApiClient",
+      "concurrent.futures",
+      "os",
+      "AutoTokenizer",
+      "Defaultability",
+      "ThreadPoolExecutor",
+      "urllib.parse",
+      "transformers",
+      "typing",
+      "sys",
+      "random",
+      "time",
+      "BaseTool",
+      "topsdk.defaultability.defaultability",
+      "qwen_agent.tools.base",
+      "topsdk.defaultability.request.alibaba_aidata_aignite_application_run_request",
+      "openai",
+      "List",
+      "OpenAI",
+      "requests"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/eval_data/sample.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/utils/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/utils/utils.py",
+    "dependencies": [
+      "logging",
+      "os",
+      "json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/client.py",
+    "dependencies": [
+      "json",
+      "ABC",
+      "urlencode",
+      "topsdk.util",
+      "get_sign",
+      "urllib.parse",
+      "abc",
+      "requests",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/util.py",
+    "dependencies": [
+      "hashlib",
+      "json",
+      "hmac",
+      "md5",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/defaultability/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/defaultability/defaultability.py",
+    "dependencies": [
+      "topsdk.client",
+      "TopApiClient"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/defaultability/request/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/defaultability/request/alibaba_dt_content_rag_tool_information_get_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/defaultability/request/taobao_kfc_keyword_search_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/defaultability/request/alibaba_dt_content_web_tool_search_jumps_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/defaultability/request/alibaba_aidata_site_data_get_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/defaultability/request/alibaba_aidata_aignite_application_run_request.py",
+    "dependencies": [
+      "typing",
+      "convert_struct_list",
+      "topsdk.client",
+      "List",
+      "topsdk.util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/defaultability/request/alibaba_dt_general_tool_get_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/ability304/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/ability304/ability304.py",
+    "dependencies": [
+      "TopApiClient",
+      "..client"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/ability304/request/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/ability304/request/taobao_openuid_get_bymixnick_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/ability304/request/taobao_top_sdk_feedback_upload_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/ability304/request/taobao_files_get_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/ability304/request/taobao_top_auth_token_create_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/ability304/request/taobao_appip_get_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/ability304/request/taobao_httpdns_get_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/ability304/request/taobao_openuid_get_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/ability304/request/taobao_openuid_get_bytrade_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/ability304/request/taobao_top_secret_get_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWeaver/topsdk/ability304/request/taobao_top_auth_token_refresh_request.py",
+    "dependencies": [
+      "typing",
+      "...client",
+      "convert_struct_list",
+      "List",
+      "...util",
+      "BaseRequest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/NestBrowse/vllm_deploy.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/NestBrowse/utils.py",
+    "dependencies": [
+      "ast",
+      "openai",
+      "json",
+      "random",
+      "AsyncOpenAI",
+      "os",
+      "aiohttp"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/NestBrowse/infer_async_nestbrowse.py",
+    "dependencies": [
+      "Visit",
+      "json",
+      "mcp_client",
+      "toolkit.tool_search",
+      "utils",
+      "os",
+      "AutoTokenizer",
+      "read_jsonl",
+      "Counter",
+      "traceback",
+      "transformers",
+      "collections",
+      "Search",
+      "re",
+      "random",
+      "asyncio",
+      "toolkit.mcp_client",
+      "copy",
+      "prompts",
+      "tqdm",
+      "toolkit.browser"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/NestBrowse/prompts.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/NestBrowse/results/.gitkeep",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/NestBrowse/data/.gitkeep",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/NestBrowse/toolkit/browser.py",
+    "dependencies": [
+      "requests",
+      "typing",
+      "json",
+      "re",
+      "asyncio",
+      "time",
+      "tiktoken",
+      "process_response",
+      "yaml",
+      "toolkit.mcp_client",
+      "Dict",
+      "os",
+      "toolkit.tool_explore",
+      "aiohttp"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/NestBrowse/toolkit/mcp_client.py",
+    "dependencies": [
+      "asynccontextmanager",
+      "anyio",
+      "ClientSession",
+      "traceback",
+      "uuid",
+      "typing",
+      "asyncio",
+      "mcp.client.sse",
+      "sse_client",
+      "Optional",
+      "contextlib",
+      "mcp",
+      "logging"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/NestBrowse/toolkit/tool_search.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/NestBrowse/toolkit/tool_explore.py",
+    "dependencies": [
+      "prompts",
+      "count_tokens",
+      "utils",
+      "os",
+      "json5"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebShaper/readme.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebShaper/data/webshaper.500.jsonl",
+    "dependencies": [
+      "substitution"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/AgentFold/serve.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/AgentFold/infer.py",
+    "dependencies": [
+      "Visit",
+      "json",
+      "concurrent.futures",
+      "threading",
+      "os",
+      "AutoTokenizer",
+      "traceback",
+      "ThreadPoolExecutor",
+      "jinja2",
+      "inference.tool_search",
+      "inference.tool_visit",
+      "transformers",
+      "datetime",
+      "sys",
+      "Search",
+      "argparse",
+      "random",
+      "re",
+      "time",
+      "importlib",
+      "openai",
+      "tqdm",
+      "OpenAI",
+      "requests"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWalker/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWalker/README.md",
+    "dependencies": [
+      "datasets",
+      "load_dataset"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWalker/src/app.py",
+    "dependencies": [
+      "base64",
+      "Image",
+      "agent",
+      "json",
+      "re",
+      "asyncio",
+      "WebWalker",
+      "PIL",
+      "BeautifulSoup",
+      "BaseTool",
+      "utils",
+      "os",
+      "bs4",
+      "qwen_agent.tools.base",
+      "json5",
+      "streamlit"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWalker/src/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWalker/src/rag_system.py",
+    "dependencies": [
+      "retry",
+      "json",
+      "load_dataset",
+      "concurrent.futures",
+      "volcenginesdkarkruntime",
+      "os",
+      "tqdm.asyncio",
+      "Choice",
+      "openai.types.chat.chat_completion",
+      "typing",
+      "asyncio",
+      "Ark",
+      "argparse",
+      "aiohttp",
+      "openai",
+      "datasets",
+      "AsyncOpenAI",
+      "tenacity",
+      "tqdm",
+      "Dict",
+      "requests"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWalker/src/agent.py",
+    "dependencies": [
+      "json",
+      "qwen_agent.llm",
+      "qwen_agent.utils.utils",
+      "BaseChatModel",
+      "ASSISTANT",
+      "qwen_agent.tools",
+      "qwen_agent.settings",
+      "typing",
+      "FnCallAgent",
+      "time",
+      "qwen_agent.agents.fncall_agent",
+      "BaseTool",
+      "prompts",
+      "openai",
+      "MAX_LLM_CALL_PER_RUN",
+      "format_as_text_message",
+      "qwen_agent.llm.schema",
+      "OpenAI",
+      "Dict"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWalker/src/utils.py",
+    "dependencies": [
+      "AsyncWebCrawler",
+      "crawl4ai",
+      "urllib.parse",
+      "re"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWalker/src/evaluate.py",
+    "dependencies": [
+      "json",
+      "load_dataset",
+      "argparse",
+      "load_evaluator",
+      "time",
+      "tqdm",
+      "datasets",
+      "concurrent.futures",
+      "os",
+      "langchain.evaluation"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWalker/src/prompts.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/docker_env/Dockerfile",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/docker_env/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/evaluation/prompt.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/evaluation/evaluate_hle_official.py",
+    "dependencies": [
+      "json",
+      "Literal",
+      "pydantic",
+      "concurrent.futures",
+      "threading",
+      "os",
+      "AutoTokenizer",
+      "Counter",
+      "ThreadPoolExecutor",
+      "transformers",
+      "typing",
+      "collections",
+      "re",
+      "argparse",
+      "time",
+      "BaseModel",
+      "openai",
+      "tqdm",
+      "OpenAI"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/evaluation/run_eval.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/scripts_eval/download_image.py",
+    "dependencies": [
+      "requests",
+      "json",
+      "urlparse",
+      "urllib.parse",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/scripts_eval/agent_eval.py",
+    "dependencies": [
+      "json",
+      "mmrag_r1.llm_agent.qwen_tool_call",
+      "AutoProcessor",
+      "concurrent.futures",
+      "os",
+      "Image",
+      "ThreadPoolExecutor",
+      "PIL",
+      "transformers",
+      "datetime",
+      "base64",
+      "sys",
+      "re",
+      "argparse",
+      "contextlib",
+      "io",
+      "openai",
+      "redirect_stdout",
+      "math",
+      "tqdm",
+      "OpenAI",
+      "Qwen_agent",
+      "requests",
+      "BytesIO"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/scripts_eval/scripts/eval.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/scripts_eval/mmrag_r1/llm_agent/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/scripts_eval/mmrag_r1/llm_agent/tensor_helper.py",
+    "dependencies": [
+      "torch",
+      "typing",
+      "dataclasses",
+      "Dict",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/scripts_eval/mmrag_r1/llm_agent/generation.py",
+    "dependencies": [
+      "torch",
+      "dataclasses",
+      "shutil",
+      "json",
+      "pdb",
+      ".qwen_tool_call",
+      "concurrent.futures",
+      "os",
+      "TensorHelper",
+      "Tracking",
+      "ray.util",
+      "Image",
+      "transformers.image_processing_base",
+      "PIL",
+      "defaultdict",
+      ".tensor_helper",
+      "numpy",
+      "dataclass",
+      "typing",
+      "collections",
+      "verl",
+      "re",
+      "BatchFeature",
+      "verl.utils.tracking",
+      "io",
+      "DataProto",
+      "List",
+      "tqdm",
+      "math",
+      "Qwen_agent",
+      "requests",
+      "BytesIO"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/scripts_eval/mmrag_r1/llm_agent/qwen_tool_call.py",
+    "dependencies": [
+      "Agent",
+      "json",
+      "qwen_agent.llm",
+      "qwen_agent.utils.utils",
+      "BaseChatModel",
+      "qwen_agent.memory",
+      "os",
+      "qwen_agent.tools",
+      "numpy",
+      "Memory",
+      "qwen_agent.settings",
+      "typing",
+      "extract_files_from_messages",
+      "BaseTool",
+      "DEFAULT_SYSTEM_MESSAGE",
+      "copy",
+      "MAX_LLM_CALL_PER_RUN",
+      "qwen_agent.llm.schema",
+      "Dict",
+      "qwen_agent"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/scripts_eval/mmrag_r1/code/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/scripts_eval/mmrag_r1/code/sandbox_module.py",
+    "dependencies": [
+      "typing",
+      "os",
+      "Optional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/scripts_eval/mmrag_r1/code/code_register.py",
+    "dependencies": [
+      "qwen_agent.tools",
+      ".sandbox_module",
+      "BaseTool",
+      "PythonCodeExecutor"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/setup.py",
+    "dependencies": [
+      "setuptools",
+      "find_packages",
+      "re"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/__init__.py",
+    "dependencies": [
+      "MultiAgentHub",
+      ".multi_agent_hub",
+      "Agent",
+      ".agent"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/settings.py",
+    "dependencies": [
+      "typing",
+      "os",
+      "ast",
+      "List"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/agent.py",
+    "dependencies": [
+      "qwen_agent.utils.parallel_executor",
+      "json",
+      "qwen_agent.llm",
+      "qwen_agent.llm.base",
+      "qwen_agent.utils.utils",
+      "logger",
+      "CONTENT",
+      "BaseChatModel",
+      "qwen_agent.tools",
+      "traceback",
+      "abc",
+      "parallel_exec",
+      "typing",
+      "qwen_agent.log",
+      "get_chat_model",
+      "copy",
+      "ABC",
+      "qwen_agent.llm.schema",
+      "has_chinese_messages",
+      "Dict",
+      "TOOL_REGISTRY"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/log.py",
+    "dependencies": [
+      "os",
+      "logging"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/qwen_dashscope.py",
+    "dependencies": [
+      "http",
+      "pprint",
+      "typing",
+      "build_text_completion_prompt",
+      "BaseFnCallModel",
+      "ModelServiceError",
+      "dashscope",
+      "logger",
+      "qwen_agent.llm.base",
+      "qwen_agent.llm.schema",
+      "qwen_agent.log",
+      "qwen_agent.utils.utils",
+      "qwen_agent.llm.function_calling",
+      "pformat",
+      "ASSISTANT",
+      "Dict",
+      "os",
+      "HTTPStatus"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/__init__.py",
+    "dependencies": [
+      "TextChatAtOAI",
+      "QwenVLChatAtOAI",
+      "OpenVINO",
+      ".base",
+      "QwenAudioChatAtDS",
+      ".azure",
+      ".qwenlalelu_dashscope",
+      "QwenVLChatAtDS",
+      ".qwenvl_oai",
+      "typing",
+      ".oai",
+      "QwenChatAtDS",
+      ".qwenvl_dashscope",
+      ".qwen_dashscope",
+      ".openvino",
+      "copy",
+      "LLM_REGISTRY",
+      "TextChatAtAzure",
+      ".qwenaudio_dashscope",
+      "Union",
+      "QwenLaleluChatAtDS"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/oai.py",
+    "dependencies": [
+      "pprint",
+      "qwen_agent.utils.utils",
+      "qwen_agent.llm.base",
+      "ModelServiceError",
+      "logger",
+      "pformat",
+      "ASSISTANT",
+      "os",
+      "OpenAIError",
+      "build_text_completion_prompt",
+      "logging",
+      "typing",
+      "BaseFnCallModel",
+      "qwen_agent.log",
+      "qwen_agent.llm.function_calling",
+      "copy",
+      "openai",
+      "openai.error",
+      "qwen_agent.llm.schema",
+      "Dict"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/azure.py",
+    "dependencies": [
+      "typing",
+      "openai",
+      "qwen_agent.llm.base",
+      "TextChatAtOAI",
+      "qwen_agent.llm.oai",
+      "register_llm",
+      "Dict",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/openvino.py",
+    "dependencies": [
+      "pprint",
+      "qwen_agent.llm.base",
+      "qwen_agent.utils.utils",
+      "logger",
+      "register_llm",
+      "pformat",
+      "ASSISTANT",
+      "threading",
+      "Thread",
+      "StoppingCriteria",
+      "build_text_completion_prompt",
+      "optimum",
+      "transformers",
+      "optimum.intel.openvino",
+      "AutoConfig",
+      "typing",
+      "OVModelForCausalLM",
+      "BaseFnCallModel",
+      "TextIteratorStreamer",
+      "qwen_agent.log",
+      "qwen_agent.llm.function_calling",
+      "copy",
+      "qwen_agent.llm.schema",
+      "transformers.generation.stopping_criteria",
+      "Dict"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/qwenlalelu_dashscope.py",
+    "dependencies": [
+      "typing",
+      "qwen_agent.llm.base",
+      "register_llm",
+      "qwen_agent.llm.qwenvl_dashscope",
+      "QwenVLChatAtDS",
+      "Dict"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/schema.py",
+    "dependencies": [
+      "BaseModel",
+      "typing",
+      "List",
+      "pydantic"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/qwenvl_dashscope.py",
+    "dependencies": [
+      "pprint",
+      "qwen_agent.llm.base",
+      "ModelServiceError",
+      "dashscope",
+      "logger",
+      "pformat",
+      "ASSISTANT",
+      "os",
+      "HTTPStatus",
+      "initialize_dashscope",
+      "typing",
+      "re",
+      "BaseFnCallModel",
+      "qwen_agent.log",
+      "qwen_agent.llm.function_calling",
+      "copy",
+      "http",
+      "qwen_agent.llm.schema",
+      "qwen_agent.llm.qwen_dashscope",
+      "Dict"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/base.py",
+    "dependencies": [
+      "pprint",
+      "json",
+      "qwen_agent.utils.utils",
+      "logger",
+      "diskcache",
+      "pformat",
+      "ASSISTANT",
+      "os",
+      "qwen_agent.settings",
+      "abc",
+      "Any",
+      "typing",
+      "qwen_agent.utils.tokenization_qwen",
+      "random",
+      "time",
+      "qwen_agent.log",
+      "DEFAULT_MAX_INPUT_TOKENS",
+      "copy",
+      "ABC",
+      "qwen_agent.llm.schema",
+      "tokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/qwenvl_oai.py",
+    "dependencies": [
+      "pprint",
+      "qwen_agent.llm",
+      "qwen_agent.llm.base",
+      "ModelServiceError",
+      "qwen_agent.utils.utils",
+      "TextChatAtOAI",
+      "logger",
+      "qwen_agent.llm.oai",
+      "register_llm",
+      "pformat",
+      "os",
+      "logging",
+      "typing",
+      "qwen_agent.log",
+      "ContentItem",
+      "copy",
+      "encode_image_as_base64",
+      "qwen_agent.llm.schema",
+      "List"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/function_calling.py",
+    "dependencies": [
+      "typing",
+      "qwen_agent.llm.fncall_prompts.nous_fncall_prompt",
+      "qwen_agent.llm.fncall_prompts.code_fncall_prompt",
+      "FN_STOP_WORDS",
+      "qwen_agent.llm.base",
+      "ABC",
+      "NousFnCallPrompt",
+      "qwen_agent.llm.schema",
+      "NousFnCallPromptThink",
+      "qwen_agent.llm.fncall_prompts.qwen_fncall_prompt",
+      "BaseChatModel",
+      "ASSISTANT",
+      "Dict",
+      "abc",
+      "qwen_agent.llm.fncall_prompts.nous_fncall_prompt_think",
+      "copy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/qwenaudio_dashscope.py",
+    "dependencies": [
+      "typing",
+      "qwen_agent.llm.base",
+      "register_llm",
+      "qwen_agent.llm.qwenvl_dashscope",
+      "QwenVLChatAtDS",
+      "Dict"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/fncall_prompts/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/fncall_prompts/base_fncall_prompt.py",
+    "dependencies": [
+      "typing",
+      "qwen_agent.utils.utils",
+      "format_as_multimodal_message",
+      "List",
+      "qwen_agent.llm.schema",
+      "FUNCTION"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/fncall_prompts/nous_fncall_prompt.py",
+    "dependencies": [
+      "typing",
+      "json",
+      "qwen_agent.llm.schema",
+      "List",
+      "ASSISTANT",
+      "qwen_agent.llm.fncall_prompts.base_fncall_prompt",
+      "BaseFnCallPrompt",
+      "copy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/fncall_prompts/qwen_fncall_prompt.py",
+    "dependencies": [
+      "typing",
+      "json",
+      "qwen_agent.llm.fncall_prompts.base_fncall_prompt",
+      "qwen_agent.utils.utils",
+      "qwen_agent.llm.schema",
+      "extract_text_from_message",
+      "ASSISTANT",
+      "Dict",
+      "BaseFnCallPrompt",
+      "copy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/fncall_prompts/nous_fncall_prompt_think.py",
+    "dependencies": [
+      "typing",
+      "json",
+      "re",
+      "qwen_agent.llm.schema",
+      "List",
+      "ASSISTANT",
+      "qwen_agent.llm.fncall_prompts.base_fncall_prompt",
+      "BaseFnCallPrompt",
+      "os",
+      "copy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/llm/fncall_prompts/code_fncall_prompt.py",
+    "dependencies": [
+      "typing",
+      "json",
+      "qwen_agent.llm.schema",
+      "List",
+      "ASSISTANT",
+      "qwen_agent.llm.fncall_prompts.base_fncall_prompt",
+      "BaseFnCallPrompt",
+      "os",
+      "copy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/memory/__init__.py",
+    "dependencies": [
+      ".memory",
+      "Memory"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/memory/memory.py",
+    "dependencies": [
+      "Agent",
+      "json",
+      "qwen_agent.llm",
+      "qwen_agent.utils.utils",
+      "logger",
+      "BaseChatModel",
+      "ASSISTANT",
+      "qwen_agent.tools",
+      "qwen_agent.settings",
+      "json5",
+      "typing",
+      "extract_files_from_messages",
+      "qwen_agent.log",
+      "BaseTool",
+      "importlib",
+      "qwen_agent.llm.schema",
+      "Dict",
+      "import_module",
+      "qwen_agent"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/vl_search_image.py",
+    "dependencies": [
+      "pathlib",
+      "json",
+      "wraps",
+      "Path",
+      "os",
+      "atexit",
+      "subprocess",
+      "GoogleSearch",
+      "urllib.parse",
+      "logging",
+      "base64",
+      "hashlib",
+      "serpapi",
+      "argparse",
+      "re",
+      "random",
+      "qwen_agent.tools.private.cache_utils",
+      "oss2",
+      "BaseTool",
+      "io",
+      "qwen_agent.tools.base",
+      "JSONLCache",
+      "string",
+      "tqdm",
+      "quote",
+      "requests",
+      "BytesIO",
+      "functools"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/vl_search_text.py",
+    "dependencies": [
+      "pathlib",
+      "dotenv",
+      "json",
+      "wraps",
+      "Path",
+      "os",
+      "atexit",
+      "subprocess",
+      "load_dotenv",
+      "urllib.parse",
+      "logging",
+      "base64",
+      "hashlib",
+      "argparse",
+      "re",
+      "random",
+      "time",
+      "qwen_agent.tools.private.cache_utils",
+      "oss2",
+      "BaseTool",
+      "io",
+      "qwen_agent.tools.base",
+      "JSONLCache",
+      "string",
+      "tqdm",
+      "quote",
+      "requests",
+      "BytesIO",
+      "functools"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/__init__.py",
+    "dependencies": [
+      ".private.visit",
+      "Visit",
+      "VLSearchImage",
+      ".base",
+      ".code_interpreter",
+      ".private.nlp_web_search",
+      ".vl_search_image",
+      "CodeInterpreterHttp",
+      ".code_interpreter_http",
+      "CodeInterpreter",
+      "TOOL_REGISTRY",
+      "WebSearch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/code_interpreter.py",
+    "dependencies": [
+      "pathlib",
+      "shutil",
+      "json",
+      "qwen_agent.utils.utils",
+      "CodeSafetyChecker",
+      "BlockingKernelClient",
+      "logger",
+      "sympy",
+      "kernelapp",
+      "PIL.Image",
+      "jupyter_client",
+      "Path",
+      "concurrent.futures",
+      "BaseToolWithFileAccess",
+      "threading",
+      "os",
+      "pandas",
+      "uuid",
+      "ipykernel",
+      "qwen_agent.utils.code_safety_checker",
+      "append_signal_handler",
+      "signal",
+      "atexit",
+      "subprocess",
+      "numpy",
+      "seaborn",
+      "typing",
+      "base64",
+      "ast",
+      "sys",
+      "asyncio",
+      "re",
+      "time",
+      "matplotlib",
+      "qwen_agent.log",
+      "Eq",
+      "io",
+      "qwen_agent.tools.base",
+      "queue",
+      "glob",
+      "stat",
+      "Dict",
+      "matplotlib.pyplot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/code_interpreter_http.py",
+    "dependencies": [
+      "json",
+      "qwen_agent.utils.utils",
+      "sympy",
+      "os",
+      "pandas",
+      "signal",
+      "numpy",
+      "seaborn",
+      "typing",
+      "re",
+      "random",
+      "matplotlib",
+      "Eq",
+      "BaseTool",
+      "qwen_agent.tools.base",
+      "math",
+      "has_chinese_chars",
+      "Dict",
+      "requests",
+      "matplotlib.pyplot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/storage.py",
+    "dependencies": [
+      "typing",
+      "qwen_agent.utils.utils",
+      "DEFAULT_WORKSPACE",
+      "read_text_from_file",
+      "BaseTool",
+      "qwen_agent.settings",
+      "Dict",
+      "os",
+      "qwen_agent.tools.base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/base.py",
+    "dependencies": [
+      "typing",
+      "jsonschema",
+      "json",
+      "ABC",
+      "qwen_agent.utils.utils",
+      "qwen_agent.llm.schema",
+      "DEFAULT_WORKSPACE",
+      "has_chinese_chars",
+      "ContentItem",
+      "qwen_agent.settings",
+      "Dict",
+      "abc",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/simple_doc_parser.py",
+    "dependencies": [
+      "qwen_agent.utils.csi",
+      "json",
+      "qwen_agent.utils.utils",
+      "aliyunaklesscredprovider.core",
+      "logger",
+      "AklessCredproviderFactory",
+      "pdfplumber",
+      "os",
+      "CredentialProviderConfig",
+      "pptx",
+      "pandas",
+      "alibabacloud_docmind_api20220711",
+      "Counter",
+      "pdfminer.layout",
+      "alibabacloud_docmind_api20220711.client",
+      "csi",
+      "aliyunaklesscredprovider.core.config",
+      "qwen_agent.settings",
+      "typing",
+      "collections",
+      "extract_pages",
+      "re",
+      "qwen_agent.utils.tokenization_qwen",
+      "LTChar",
+      "time",
+      "alibabacloud_tea_openapi",
+      "tabulate",
+      "PackageNotFoundError",
+      "qwen_agent.log",
+      "Client",
+      "qwen_agent.tools.storage",
+      "KeyNotExistsError",
+      "count_tokens",
+      "BaseTool",
+      "Document",
+      "qwen_agent.tools.base",
+      "pdfminer.high_level",
+      "docx",
+      "rm_cid",
+      "Presentation",
+      "DEFAULT_WORKSPACE",
+      "qwen_agent.utils.str_processing",
+      "BeautifulSoup",
+      "models",
+      "Dict",
+      "requests",
+      "bs4",
+      "pptx.exc",
+      "LTImage"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/gpt4o/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/gpt4o/eleven_tts.py",
+    "dependencies": [
+      "os",
+      "requests",
+      "json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/gpt4o/openai_style_api_client.py",
+    "dependencies": [
+      "requests",
+      "sys",
+      "typing",
+      "traceback",
+      "SUPPORT_ARGS",
+      "json",
+      "dotenv",
+      "time",
+      "BaseAPIClient",
+      "tiktoken",
+      "truncate_long_strings",
+      "qwen_agent.tools.gpt4o.utils",
+      "load_dotenv",
+      "qwen_agent.tools.gpt4o.base",
+      "qwen_agent.tools.gpt4o.constant",
+      "os",
+      "Any"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/gpt4o/utils.py",
+    "dependencies": [
+      "typing",
+      "sys",
+      "json",
+      "argparse",
+      "os",
+      "Any",
+      "pandas"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/gpt4o/base.py",
+    "dependencies": [
+      "typing",
+      "collections",
+      "ABC",
+      "Dict",
+      "abc"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/gpt4o/parallel_run.py",
+    "dependencies": [
+      "Logger",
+      "json",
+      "logger",
+      "concurrent.futures",
+      "utils",
+      "os",
+      "traceback",
+      "ThreadPoolExecutor",
+      "sys",
+      "openai_style_api_client",
+      "time",
+      "OpenAIAPIClient",
+      "tqdm.auto",
+      "copy",
+      "partial",
+      "tqdm",
+      "load_file2list",
+      "multiprocessing",
+      "Lock",
+      "functools"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/gpt4o/constant.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/gpt4o/logger.py",
+    "dependencies": [
+      "inspect",
+      "typing",
+      "Fore",
+      "Optional",
+      "colorama",
+      "logging",
+      "functools"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/resource/code_interpreter_init_kernel.py",
+    "dependencies": [
+      "json",
+      "re",
+      "math",
+      "signal",
+      "matplotlib",
+      "matplotlib.font_manager",
+      "FontProperties",
+      "Eq",
+      "sympy",
+      "numpy",
+      "os",
+      "seaborn",
+      "pandas",
+      "matplotlib.pyplot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/private/jialong_visit.py",
+    "dependencies": [
+      "json",
+      "AlibabaAidataAigniteApplicationRunAigniteApplicationExecuteReqDTO",
+      "urlparse",
+      "uniform_eval.network.server.rm_model.judge_model",
+      "qwen_agent.tools.private.topsdk.defaultability.request.alibaba_aidata_aignite_application_run_request",
+      "TopApiClient",
+      "concurrent.futures",
+      "os",
+      "qwen_agent.tools.private.topsdk.client",
+      "Defaultability",
+      "ThreadPoolExecutor",
+      "urllib.parse",
+      "RequestException",
+      "typing",
+      "asyncio",
+      "random",
+      "re",
+      "time",
+      "requests.exceptions",
+      "BaseTool",
+      "qwen_agent.tools.base",
+      "judge_model",
+      "List",
+      "requests",
+      "qwen_agent.tools.private.topsdk.defaultability.defaultability"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/private/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/private/sfilter.py",
+    "dependencies": [
+      "typing",
+      "json",
+      "re",
+      "ThreadPoolExecutor",
+      "List",
+      "tqdm",
+      "logger",
+      "qwen_agent.log",
+      "concurrent.futures",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/private/cache_utils.py",
+    "dependencies": [
+      "os",
+      "fcntl",
+      "json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/private/prompt.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/private/readpage.py",
+    "dependencies": [
+      "requests",
+      "Defaultability",
+      "json",
+      "asyncio",
+      "random",
+      "RequestException",
+      "AlibabaAidataAigniteApplicationRunAigniteApplicationExecuteReqDTO",
+      "requests.exceptions",
+      "uniform_eval.network.server.rm_model.judge_model",
+      "qwen_agent.tools.private.topsdk.defaultability.request.alibaba_aidata_aignite_application_run_request",
+      "BaseTool",
+      "TopApiClient",
+      "os",
+      "qwen_agent.tools.private.topsdk.client",
+      "qwen_agent.tools.base",
+      "judge_model",
+      "qwen_agent.tools.private.topsdk.defaultability.defaultability"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/private/nlp_web_search.py",
+    "dependencies": [
+      "dataclasses",
+      "multi_call_sfilter",
+      "json",
+      "logger",
+      "wraps",
+      "qwen_agent.tools.private.sfilter",
+      "os",
+      "uuid",
+      "atexit",
+      "dataclass",
+      "datetime",
+      "typing",
+      "re",
+      "random",
+      "time",
+      "qwen_agent.tools.private.cache_utils",
+      "qwen_agent.log",
+      "BaseTool",
+      "qwen_agent.tools.base",
+      "JSONLCache",
+      "Union",
+      "requests",
+      "functools"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/tools/private/visit.py",
+    "dependencies": [
+      "typing",
+      "openai",
+      "json",
+      "random",
+      "ThreadPoolExecutor",
+      "List",
+      "OpenAI",
+      "BaseTool",
+      "concurrent.futures",
+      "os",
+      "requests",
+      "qwen_agent.tools.base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/utils/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/utils/csi.py",
+    "dependencies": [
+      "requests",
+      "string",
+      "random",
+      "os",
+      "copy",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/utils/parallel_executor.py",
+    "dependencies": [
+      "torch",
+      "typing",
+      "random",
+      "time",
+      "ThreadPoolExecutor",
+      "concurrent.futures",
+      "deepcopy",
+      "Any",
+      "copy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/utils/code_safety_checker.py",
+    "dependencies": [
+      "ast",
+      "from",
+      "name",
+      "statements",
+      "tokenize",
+      "subprocess",
+      "X",
+      "remove",
+      "os",
+      "Y",
+      "is",
+      "io",
+      "self.import_map",
+      "pandas"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/utils/str_processing.py",
+    "dependencies": [
+      "has_chinese_chars",
+      "qwen_agent.utils.utils",
+      "re"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/utils/utils.py",
+    "dependencies": [
+      "shutil",
+      "json",
+      "logger",
+      "pydantic",
+      "ASSISTANT",
+      "os",
+      "from_path",
+      "Image",
+      "traceback",
+      "signal",
+      "socket",
+      "PIL",
+      "urllib.parse",
+      "Any",
+      "json5",
+      "typing",
+      "base64",
+      "hashlib",
+      "sys",
+      "re",
+      "time",
+      "qwen_agent.log",
+      "io",
+      "copy",
+      "BaseModel",
+      "charset_normalizer",
+      "qwen_agent.llm.schema",
+      "requests",
+      "BytesIO"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/utils/tokenization_qwen.py",
+    "dependencies": [
+      "pathlib",
+      "base64",
+      "typing",
+      "logger",
+      "tiktoken",
+      "qwen_agent.log",
+      "unicodedata",
+      "Path",
+      "Collection"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/qwen-agent-o1_search/qwen_agent/utils/qwen.tiktoken",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/eval_data/mmsearch.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/eval_data/livevqa.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/eval_data/simplevqa.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/infer/vl_search_r1/eval_data/hle.jsonl",
+    "dependencies": [
+      "plot_atoms",
+      "qutip",
+      "math",
+      "FaceCenteredCubic",
+      "scipy.spatial",
+      "Bio",
+      "ase.lattice.cubic",
+      "Polygon",
+      "ase.visualize.plot",
+      "numpy",
+      "Bio.ExPASy",
+      "SwissProt",
+      "ExPASy",
+      "Delaunay",
+      "matplotlib.patches",
+      "Prosite",
+      "matplotlib.pyplot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/browsecomp-vl/bc_vl_level2.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebWatcher/browsecomp-vl/bc_vl_level1.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebSailor-V2/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/readme.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/datasets/sample_traj.jsonl",
+    "dependencies": [
+      "of",
+      "theano.tensor",
+      "pytensor",
+      "pytensor.tensor."
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/datasets/sample_qa.jsonl",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/assistant_qwq_chat.py",
+    "dependencies": [
+      "SearchAgent",
+      "Assistant",
+      "demos.utils.date",
+      "Visit",
+      "typewriter_print",
+      "QwenChatAtDS",
+      "qwen_agent.utils.output_beautify",
+      "demos.llm.qwen_dashscope",
+      "TextChatAtOAI",
+      "demos.gui.web_ui",
+      "demos.llm.oai",
+      "WebUI",
+      "date2str",
+      "qwen_agent.agents",
+      "os",
+      "demos.tools",
+      "demos.agents.search_agent"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/agents/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/agents/search_agent.py",
+    "dependencies": [
+      "Assistant",
+      "typing",
+      "qwen_agent.tools",
+      "qwen_agent.llm",
+      "logger",
+      "qwen_agent.llm.schema",
+      "qwen_agent.log",
+      "qwen_agent.agents",
+      "BaseTool",
+      "BaseChatModel",
+      "USER",
+      "Dict",
+      "copy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/llm/qwen_dashscope.py",
+    "dependencies": [
+      "http",
+      "pprint",
+      "typing",
+      "qwen_agent.llm.base",
+      "BaseFnCallModel",
+      "ModelServiceError",
+      "dashscope",
+      "logger",
+      "qwen_agent.llm.schema",
+      "qwen_agent.log",
+      "qwen_agent.llm.function_calling",
+      "pformat",
+      "ASSISTANT",
+      "Dict",
+      "os",
+      "HTTPStatus"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/llm/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/llm/oai.py",
+    "dependencies": [
+      "pprint",
+      "json",
+      "qwen_agent.llm.base",
+      "ModelServiceError",
+      "logger",
+      "pformat",
+      "ASSISTANT",
+      "os",
+      "HTTPStatus",
+      "OpenAIError",
+      "logging",
+      "typing",
+      "BaseFnCallModel",
+      "qwen_agent.log",
+      "qwen_agent.llm.function_calling",
+      "copy",
+      "http",
+      "openai",
+      "openai.error",
+      "qwen_agent.llm.schema",
+      "Dict"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/tools/__init__.py",
+    "dependencies": [
+      ".private.visit",
+      "Visit",
+      ".private.search",
+      "Search"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/tools/private/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/tools/private/cache_utils.py",
+    "dependencies": [
+      "os",
+      "fcntl",
+      "json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/tools/private/visit.py",
+    "dependencies": [
+      "requests",
+      "typing",
+      "openai",
+      "json",
+      "ThreadPoolExecutor",
+      "List",
+      "OpenAI",
+      "BaseTool",
+      "concurrent.futures",
+      "os",
+      "qwen_agent.tools.base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/tools/private/search.py",
+    "dependencies": [
+      "requests",
+      "typing",
+      "json",
+      "ThreadPoolExecutor",
+      "List",
+      "BaseTool",
+      "concurrent.futures",
+      "os",
+      "qwen_agent.tools.base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/utils/date.py",
+    "dependencies": [
+      "random",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/utils/logs.py",
+    "dependencies": [
+      "os",
+      "sys",
+      "platform",
+      "logging"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/gui/html_decorate.py",
+    "dependencies": [
+      "MarkdownIt",
+      "re",
+      "html",
+      "markdown_it",
+      "mermaid"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/gui/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/demos/gui/web_ui.py",
+    "dependencies": [
+      "pprint",
+      "print_traceback",
+      "Agent",
+      "qwen_agent.utils.utils",
+      "logger",
+      "qwen_agent.gui.utils",
+      "convert_fncall_to_text",
+      "os",
+      "format_cover_html",
+      "qwen_agent.gui.gradio_dep",
+      "qwen_agent.agents.user_agent",
+      "typing",
+      "gr",
+      "re",
+      "qwen_agent.log",
+      "AUDIO",
+      "PENDING_USER_INPUT",
+      "qwen_agent.llm.schema",
+      "List",
+      "qwen_agent.gui.gradio_utils",
+      "qwen_agent"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/scripts/run_demo.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebDancer/scripts/deploy_model.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "WebAgent/WebLeaper/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "Agent/AgentScaler/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "Agent/AgentFounder/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
